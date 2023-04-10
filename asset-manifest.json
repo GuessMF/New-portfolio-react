@@ -1,13 +1,22 @@
 {
   "files": {
-    "main.css": "/React-Blog/static/css/main.d10cee40.css",
-    "main.js": "/React-Blog/static/js/main.01608f7c.js",
+    "main.css": "/React-Blog/static/css/main.2acb1df3.css",
+    "main.js": "/React-Blog/static/js/main.76f5898f.js",
+    "static/media/react.png": "/React-Blog/static/media/react.809fed23bcdd686de66e.png",
+    "static/media/sass.png": "/React-Blog/static/media/sass.c5da83bb9ff45b84e0e7.png",
+    "static/media/git.png": "/React-Blog/static/media/git.00e5bd772731dbe33649.png",
+    "static/media/telegram.png": "/React-Blog/static/media/telegram.e9722f26cc228e817986.png",
+    "static/media/github.png": "/React-Blog/static/media/github.f11021803f68852df283.png",
+    "static/media/css-3.png": "/React-Blog/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/bootstrap.png": "/React-Blog/static/media/bootstrap.268c4375260420e8d982.png",
+    "static/media/typescript.png": "/React-Blog/static/media/typescript.af108db04a54d784da9b.png",
+    "static/media/js.png": "/React-Blog/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/React-Blog/index.html",
-    "main.d10cee40.css.map": "/React-Blog/static/css/main.d10cee40.css.map",
-    "main.01608f7c.js.map": "/React-Blog/static/js/main.01608f7c.js.map"
+    "main.2acb1df3.css.map": "/React-Blog/static/css/main.2acb1df3.css.map",
+    "main.76f5898f.js.map": "/React-Blog/static/js/main.76f5898f.js.map"
   },
   "entrypoints": [
-    "static/css/main.d10cee40.css",
-    "static/js/main.01608f7c.js"
+    "static/css/main.2acb1df3.css",
+    "static/js/main.76f5898f.js"
   ]
 }
