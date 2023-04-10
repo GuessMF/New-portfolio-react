@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <input type="checkbox" checked={true} />
-      <input />
+      <p>Hello test deploy from master branch to h pages</p>
       <input type="checkbox" checked={false} />
     </div>
   );
