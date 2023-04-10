@@ -1,8 +1,8 @@
 import {React, useState} from "react";
-import "./style.css";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Footer from "./components/Footer/Footer";
+import style from "./App.module.scss";
+import Header from "../Header/Header";
+import Main from "../Main/Main";
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
@@ -10,7 +10,6 @@ function App() {
       <Header />
       <Main />
       <Footer />
-      <p>Hello</p>
     </div>
   );
 }
