@@ -10,6 +10,7 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <p>Hello</p>
     </div>
   );
 }
