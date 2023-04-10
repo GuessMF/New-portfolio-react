@@ -1,0 +1,143 @@
+@import "/src/var";
+.welcome_screen {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  height: 95vh;
+}
+.portfolio_information {
+  width: 80%;
+  height: 90%;
+}
+.portfolio_top {
+  background-color: cadetblue;
+  width: $width-main;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  .portfolio_img {
+    width: 220px;
+    height: 220px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-right: 30px;
+  }
+  .portfolio_block {
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+      font-size: 46px;
+    }
+    h3 {
+      font-size: 26px;
+    }
+
+    .portfolio_links {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      border: black 1px solid;
+      justify-content: space-around;
+      li {
+        list-style-type: none;
+        img {
+          width: 40px;
+        }
+      }
+    }
+  }
+}
+.about_me {
+  // border: black 1px solid;
+  width: $width-main;
+  // margin: 20px auto;
+  margin: 0 auto;
+  margin-top: $main-margin-top;
+  height: fit-content;
+}
+.stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  // border: black 1px solid;
+  width: $width-main;
+  height: fit-content;
+
+  margin: 0 auto;
+  margin-top: $main-margin-top;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  li {
+    list-style-type: none;
+    img {
+      width: 50px;
+    }
+  }
+}
+.portfolio_center {
+  width: $width-main;
+  margin: 0 auto;
+  margin-top: $main-margin-top;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  // border: black 1px solid;
+
+  .statistic {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    div {
+      display: flex;
+      flex-direction: column;
+      align-content: center;
+      justify-content: center;
+    }
+
+    span {
+      margin: 0 auto;
+      font-size: 24px;
+    }
+    h3 {
+      margin: 0;
+    }
+  }
+}
+.portfolio_bottom {
+  width: $width-main;
+  margin: 0 auto;
+  margin-top: $main-margin-top;
+  // border: black 1px solid;
+  height: fit-content;
+  .buttons {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    button {
+      height: 60px;
+      width: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+      border-radius: 10px;
+      border: none;
+
+      img {
+        width: 30px;
+      }
+    }
+  }
+}

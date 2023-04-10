@@ -7,7 +7,7 @@ export default function Header() {
       <div className={style.header__wrapper}>
         <div className={style.brand_name}>Blog Name</div>
         <div className={style.right_content}>
-          <li>Home</li>
+          <li>About me</li>
           <li>One</li>
           <li>Two</li>
           <li>Three</li>
