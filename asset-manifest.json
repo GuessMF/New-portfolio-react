@@ -1,7 +1,9 @@
 {
   "files": {
-    "main.css": "/React-Blog/static/css/main.2acb1df3.css",
-    "main.js": "/React-Blog/static/js/main.76f5898f.js",
+    "main.css": "/React-Blog/static/css/main.a668e6ea.css",
+    "main.js": "/React-Blog/static/js/main.83bb936c.js",
+    "static/media/avatar.png": "/React-Blog/static/media/avatar.4acec347788172b14119.png",
+    "static/media/Araney.png": "/React-Blog/static/media/Araney.9d079b8a2559c4615657.png",
     "static/media/react.png": "/React-Blog/static/media/react.809fed23bcdd686de66e.png",
     "static/media/sass.png": "/React-Blog/static/media/sass.c5da83bb9ff45b84e0e7.png",
     "static/media/git.png": "/React-Blog/static/media/git.00e5bd772731dbe33649.png",
@@ -12,11 +14,11 @@
     "static/media/typescript.png": "/React-Blog/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/React-Blog/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/React-Blog/index.html",
-    "main.2acb1df3.css.map": "/React-Blog/static/css/main.2acb1df3.css.map",
-    "main.76f5898f.js.map": "/React-Blog/static/js/main.76f5898f.js.map"
+    "main.a668e6ea.css.map": "/React-Blog/static/css/main.a668e6ea.css.map",
+    "main.83bb936c.js.map": "/React-Blog/static/js/main.83bb936c.js.map"
   },
   "entrypoints": [
-    "static/css/main.2acb1df3.css",
-    "static/js/main.76f5898f.js"
+    "static/css/main.a668e6ea.css",
+    "static/js/main.83bb936c.js"
   ]
 }
