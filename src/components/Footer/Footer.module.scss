@@ -7,8 +7,32 @@
   margin-bottom: 0;
 }
 .footer_wrapper {
-  background-color: rgb(234, 234, 159);
+  background-color: $main-color;
   border-radius: 10px;
   height: 100%;
   margin: 0 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.block_1 {
+  margin-left: $margin-left-header;
+
+  h1 {
+    color: $white-color;
+  }
+}
+.block_2 {
+  img {
+    width: 40px;
+    filter: invert(100%);
+  }
+}
+.block_3 {
+  margin-right: $margin-left-header;
+  h3 {
+    color: $white-color;
+    font-size: 24px;
+  }
 }

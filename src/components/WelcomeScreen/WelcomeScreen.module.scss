@@ -4,15 +4,18 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: aqua;
-  height: 95vh;
+  background-color: $main-color;
+  // height: 95vh;
+  height: fit-content;
+  border-radius: 10px;
 }
 .portfolio_information {
   width: 80%;
   height: 90%;
+  margin-top: $main-margin-top;
 }
 .portfolio_top {
-  background-color: cadetblue;
+  //background-color: cadetblue;
   width: $width-main;
   margin: 0 auto;
   display: flex;
@@ -22,20 +25,31 @@
   .portfolio_img {
     width: 220px;
     height: 220px;
-    background-color: blue;
-    border-radius: 50%;
+
     margin-right: 30px;
+    img {
+      width: 220px;
+      border-radius: 50%;
+      @media (max-width: 460px) {
+        width: 150px;
+      }
+    }
   }
   .portfolio_block {
-    background-color: antiquewhite;
+    // background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     align-items: center;
     h1 {
       font-size: 46px;
+      color: $white-color;
+      @media (max-width: 460px) {
+        font-size: 36px;
+      }
     }
     h3 {
       font-size: 26px;
+      color: $white-color;
     }
 
     .portfolio_links {
@@ -53,65 +67,7 @@
     }
   }
 }
-.about_me {
-  // border: black 1px solid;
-  width: $width-main;
-  // margin: 20px auto;
-  margin: 0 auto;
-  margin-top: $main-margin-top;
-  height: fit-content;
-}
-.stack {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  // border: black 1px solid;
-  width: $width-main;
-  height: fit-content;
 
-  margin: 0 auto;
-  margin-top: $main-margin-top;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  li {
-    list-style-type: none;
-    img {
-      width: 50px;
-    }
-  }
-}
-.portfolio_center {
-  width: $width-main;
-  margin: 0 auto;
-  margin-top: $main-margin-top;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  // border: black 1px solid;
-
-  .statistic {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    height: fit-content;
-    div {
-      display: flex;
-      flex-direction: column;
-      align-content: center;
-      justify-content: center;
-    }
-
-    span {
-      margin: 0 auto;
-      font-size: 24px;
-    }
-    h3 {
-      margin: 0;
-    }
-  }
-}
 .portfolio_bottom {
   width: $width-main;
   margin: 0 auto;
@@ -124,9 +80,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: $main-margin-top;
     button {
-      height: 60px;
-      width: 40%;
+      height: $button-height;
+      width: $button-width;
       display: flex;
       flex-direction: row;
       justify-content: center;
