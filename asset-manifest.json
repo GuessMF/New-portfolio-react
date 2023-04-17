@@ -1,24 +1,33 @@
 {
   "files": {
-    "main.css": "/React-Blog/static/css/main.a668e6ea.css",
-    "main.js": "/React-Blog/static/js/main.83bb936c.js",
+    "main.css": "/React-Blog/static/css/main.c174901d.css",
+    "main.js": "/React-Blog/static/js/main.5595f0e1.js",
     "static/media/avatar.png": "/React-Blog/static/media/avatar.4acec347788172b14119.png",
     "static/media/Araney.png": "/React-Blog/static/media/Araney.9d079b8a2559c4615657.png",
+    "static/media/PassGen.png": "/React-Blog/static/media/PassGen.3f5b39e812a391872ead.png",
+    "static/media/HeadPhones.png": "/React-Blog/static/media/HeadPhones.5ce909d169987bf9e646.png",
+    "static/media/TextFinder.png": "/React-Blog/static/media/TextFinder.e567de9e3a5e14e54c31.png",
+    "static/media/Like_Me.png": "/React-Blog/static/media/Like_Me.1e25cd1ce8e3df4a7bfc.png",
     "static/media/react.png": "/React-Blog/static/media/react.809fed23bcdd686de66e.png",
+    "static/media/Armstrong_Canvas.png": "/React-Blog/static/media/Armstrong_Canvas.c839cc50da1bf8965ae2.png",
+    "static/media/Maze.png": "/React-Blog/static/media/Maze.def36c9de70aa93d7fec.png",
+    "static/media/Armstrong_Css.png": "/React-Blog/static/media/Armstrong_Css.93bc844b50b21dab0a28.png",
     "static/media/sass.png": "/React-Blog/static/media/sass.c5da83bb9ff45b84e0e7.png",
+    "static/media/TicTacToe.png": "/React-Blog/static/media/TicTacToe.7a1dc69858dc2b22795f.png",
     "static/media/git.png": "/React-Blog/static/media/git.00e5bd772731dbe33649.png",
     "static/media/telegram.png": "/React-Blog/static/media/telegram.e9722f26cc228e817986.png",
+    "static/media/ToDo.png": "/React-Blog/static/media/ToDo.5926040f3eb9f3e9f867.png",
     "static/media/github.png": "/React-Blog/static/media/github.f11021803f68852df283.png",
     "static/media/css-3.png": "/React-Blog/static/media/css-3.463e319bad8e0edf1ef7.png",
     "static/media/bootstrap.png": "/React-Blog/static/media/bootstrap.268c4375260420e8d982.png",
     "static/media/typescript.png": "/React-Blog/static/media/typescript.af108db04a54d784da9b.png",
     "static/media/js.png": "/React-Blog/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/React-Blog/index.html",
-    "main.a668e6ea.css.map": "/React-Blog/static/css/main.a668e6ea.css.map",
-    "main.83bb936c.js.map": "/React-Blog/static/js/main.83bb936c.js.map"
+    "main.c174901d.css.map": "/React-Blog/static/css/main.c174901d.css.map",
+    "main.5595f0e1.js.map": "/React-Blog/static/js/main.5595f0e1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a668e6ea.css",
-    "static/js/main.83bb936c.js"
+    "static/css/main.c174901d.css",
+    "static/js/main.5595f0e1.js"
   ]
 }
