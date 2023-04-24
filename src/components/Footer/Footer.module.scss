@@ -1,20 +1,23 @@
 @import "/src/var";
+
 .footer {
   height: 80px;
   margin-top: 10px;
   max-width: 1440px;
   width: 100%;
   margin-bottom: 0;
+  align-self: end;
 }
 .footer_wrapper {
-  background-color: $main-color;
-  border-radius: 10px;
-  height: 100%;
-  margin: 0 5px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: relative;
+  height: 100%;
+  background-color: $main-color;
+  border-radius: 10px;
+  margin: 0 5px;
 }
 .block_1 {
   margin-left: $margin-left-header;
@@ -24,6 +27,10 @@
   }
 }
 .block_2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   img {
     width: 40px;
     filter: invert(100%);

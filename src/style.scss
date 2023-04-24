@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import "/src/var";
+
 body {
   margin: 0 auto;
   font-family: "DM Sans", sans-serif;
   max-width: 1440px;
   width: 100%;
   background-color: $background-color;
+  // background-image: url("./images/background.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("./images/background.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body::-webkit-scrollbar {
+  width: 0;
 }

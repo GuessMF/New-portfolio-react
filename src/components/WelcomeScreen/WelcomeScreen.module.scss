@@ -1,18 +1,30 @@
 @import "/src/var";
+// .wrapper {
+//   background-color: aquamarine;
+//   height: 82vh;
+// }
 .welcome_screen {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   background-color: $main-color;
-  // height: 95vh;
+
   height: fit-content;
+  height: 81vh;
   border-radius: 10px;
+  //background-color: rgb(109, 111, 111);
+  transition: $transition;
 }
 .portfolio_information {
   width: 80%;
   height: 90%;
   margin-top: $main-margin-top;
+  //background-color: rgb(145, 146, 146);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .portfolio_top {
   //background-color: cadetblue;
@@ -22,6 +34,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  // background-color: aqua;
   .portfolio_img {
     width: 220px;
     height: 220px;
@@ -40,6 +53,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
     h1 {
       font-size: 46px;
       color: $white-color;
@@ -74,27 +88,70 @@
   margin-top: $main-margin-top;
   // border: black 1px solid;
   height: fit-content;
-  .buttons {
-    width: 100%;
-    height: fit-content;
+  // border: white 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: $main-margin-top;
+
+  width: 50%;
+
+  a {
+    width: 60%;
+    border: $white-color 1px solid;
+    border-radius: 10px;
+    height: 50px;
+    text-decoration: none;
+    color: $white-color;
+    font-size: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: $main-margin-top;
-    button {
-      height: $button-height;
-      width: $button-width;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      align-items: center;
-      font-size: 22px;
-      border-radius: 10px;
-      border: none;
+    justify-content: center;
+    align-items: center;
 
-      img {
-        width: 30px;
-      }
+    transition: $transition;
+    padding: 0 auto;
+    margin: 15px auto;
+    img {
+      width: 28px;
+      filter: invert(100%);
+      margin-left: 10px;
+    }
+    &:hover {
+      background-color: $background-color;
+      border: $background-color 1px solid;
     }
   }
+  // .buttons {
+  //   width: 100%;
+  //   height: fit-content;
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: space-between;
+  //   margin-bottom: $main-margin-top;
+  //   button {
+  //     height: $button-height;
+  //     width: $button-width;
+  //     display: flex;
+  //     flex-direction: row;
+  //     justify-content: center;
+  //     align-items: center;
+  //     font-size: 22px;
+  //     border-radius: 10px;
+  //     border: $white-color 1px solid;
+  //     background-color: $main-color;
+  //     color: $white-color;
+  //     transition: $transition;
+  //     cursor: pointer;
+  //     &:hover {
+  //       background-color: $background-color;
+  //       border: $background-color 1px solid;
+  //     }
+
+  //     img {
+  //       width: 30px;
+  //     }
+  //   }
+  // }
 }

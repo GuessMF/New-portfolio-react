@@ -1,26 +1,38 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
+
 import style from "./Example.module.scss";
 
-export default function Example({title, img, gitHubLink, stack, stackIcon}) {
+export default function Example({
+  title,
+  img,
+  gitHubLink,
+  stack,
+  stackIcon,
+  index,
+}) {
+  console.log();
   return (
-    <div className={style.example}>
-      <div
-        className={style.example_img}
-        style={{backgroundImage: `url(${img})`}}
-      >
-        <div className={style.subtitle}>
-          <h4>{title}</h4>
-          <p>
-            Stack:
-            {stackIcon.map((icon) => {
-              return <img src={icon}></img>;
-            })}
-          </p>
+    <NavLink to={`/project/${index}`}>
+      <div className={style.example}>
+        <div
+          className={style.example_img}
+          style={{backgroundImage: `url(${img})`}}
+        >
+          <div className={style.subtitle}>
+            <h4>{title}</h4>
+            <p>
+              Skills:
+              {stackIcon.map((icon) => {
+                return <img src={icon} alt="icon"></img>;
+              })}
+            </p>
 
-          {/* <p>Stack: {stackIcon}</p> */}
-          <p>{/* Stack: <img src={stackIcon}></img> */}</p>
+            {/* <p>Stack: {stackIcon}</p> */}
+            <p>{/* Stack: <img src={stackIcon}></img> */}</p>
+          </div>
         </div>
       </div>
-    </div>
+    </NavLink>
   );
 }

@@ -1,0 +1,61 @@
+@import "/src/var";
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1430px;
+  width: 100%;
+  background-color: $main-color;
+
+  height: fit-content;
+  border-radius: 10px;
+
+  color: $white-color;
+  height: fit-content;
+
+  margin: 0 5px;
+  margin-top: 80px;
+}
+.title {
+  width: 100%;
+
+  h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 16px;
+    color: $white-color;
+    margin-left: $margin-left-header;
+  }
+}
+.example_works {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($button-width, 1fr));
+  justify-content: center;
+  justify-items: center;
+  grid-column-gap: 18px;
+  grid-row-gap: 20px;
+  margin-top: $main-margin-top;
+  margin-bottom: $main-margin-top;
+  width: 95%;
+  height: fit-content;
+}
+.bottom_button {
+  width: 95%;
+  margin-bottom: $main-margin-top;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  button {
+    height: $button-height;
+    width: $button-width;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 10px;
+    border: none;
+  }
+}

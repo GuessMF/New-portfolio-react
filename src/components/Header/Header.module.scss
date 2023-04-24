@@ -13,9 +13,12 @@
   top: 0;
   left: auto;
   right: auto;
+  z-index: 9;
+  // opacity: 0.3;
 }
 .header__wrapper {
   background-color: $main-color;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -36,6 +39,7 @@
     font-size: 26px;
     line-height: 16px;
     color: $white-color;
+    text-decoration: none;
 
     margin-left: $margin-left-header;
   }
@@ -53,6 +57,16 @@
       list-style-type: none;
       margin-left: 30px;
       color: $white-color;
+      text-decoration: none;
+    }
+    .link {
+      color: $white-color;
+      text-decoration: none;
+    }
+    .active_link {
+      color: $white-color;
+      text-decoration: none;
+      border-bottom: $background-color 2px solid;
     }
   }
 }

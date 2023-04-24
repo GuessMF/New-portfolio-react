@@ -1,17 +1,30 @@
 @import "/src/var";
 
 .example {
-  width: $button-width;
-  height: 320px;
-  background-color: $white-color;
-
-  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+
+  width: $button-width;
+  height: 320px;
+  background-color: $white-color;
+  border-radius: 15px;
   border: none;
+
   @media (max-width: 913px) {
     width: 80%;
+  }
+
+  &:hover {
+    .subtitle {
+      height: 80px;
+      p {
+        opacity: 1;
+      }
+      img {
+        opacity: 1;
+      }
+    }
   }
 }
 .example_img {
@@ -19,49 +32,38 @@
   height: 100%;
   border-radius: 15px;
   background-size: no-repeat;
-
   background-position: center;
-
   background-size: cover;
   border: none;
   position: relative;
+  z-index: 8;
 }
 .subtitle {
-  background-color: cadetblue;
-  border-radius: 15px;
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
+  left: -3px;
+  width: 102%;
+  height: 10%;
+  background-color: $main-color;
+  border-radius: 15px;
+
   transition: all 1s;
 
-  height: 10%;
   h4 {
     margin: 0;
     text-align: center;
     font-size: 20px;
-    color: $main-color;
+    color: $white-color;
   }
   p {
-    // display: none;
+    color: $white-color;
     opacity: 0;
-    transition: opacity 2s;
+    transition: opacity 0.8s;
   }
   img {
+    margin-left: 10px;
     width: 7%;
     opacity: 0;
-    transition: opacity 2s;
-  }
-  &:hover {
-    height: 80px;
-
-    p {
-      // display: block;
-      opacity: 1;
-      // transition-delay: opacity 10s;
-    }
-    img {
-      opacity: 1;
-    }
+    transition: opacity 0.8s;
   }
 }

@@ -1,1 +1,8 @@
+@import "/src/var";
 
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: $app-height;
+}

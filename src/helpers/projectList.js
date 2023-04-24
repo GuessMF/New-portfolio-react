@@ -9,12 +9,12 @@ import Maze from "./../components/Example/images/Maze.png";
 import ToDo from "./../components/Example/images/ToDo.png";
 import TicTacToe from "./../components/Example/images/TicTacToe.png";
 
-import HTML_icon from "./../components/AboutMe/images/html-5.png";
-import CSS_icon from "./../components/AboutMe/images/css-3.png";
-import SCSS_icon from "./../components/AboutMe/images/sass.png";
-import JS_icon from "./../components/AboutMe/images/js.png";
-import TS_icon from "./../components/AboutMe/images/typescript.png";
-import TAILWIND_icon from "./../components/AboutMe/images/tailwind.png";
+import HTML_icon from "./../components/pages/AboutMe/images/html-5.png";
+import CSS_icon from "./../components/pages/AboutMe/images/css-3.png";
+import SCSS_icon from "./../components/pages/AboutMe/images/sass.png";
+import JS_icon from "./../components/pages/AboutMe/images/js.png";
+import TS_icon from "./../components/pages/AboutMe/images/typescript.png";
+import TAILWIND_icon from "./../components/pages/AboutMe/images/tailwind.png";
 
 const projects = [
   {

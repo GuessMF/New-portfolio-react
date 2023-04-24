@@ -1,0 +1,76 @@
+@import "/src/var";
+.about_me {
+  background-color: $main-color;
+
+  height: fit-content;
+  height: 81vh;
+  border-radius: 10px;
+  margin: 0 5px;
+  margin-top: 80px;
+}
+.statistic {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: fit-content;
+
+  div {
+    margin-top: $main-margin-top;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+  }
+
+  span {
+    margin: 0 auto;
+    font-size: 24px;
+    color: $white-color;
+  }
+  h3 {
+    margin: 0;
+    color: $white-color;
+  }
+}
+
+.title {
+  width: $width-main;
+
+  margin: 0 auto;
+  margin-top: $main-margin-top;
+  height: fit-content;
+  color: $white-color;
+  padding-top: $main-margin-top;
+}
+.stack {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  width: $width-main;
+  height: fit-content;
+
+  margin: 0 auto;
+  margin-top: $main-margin-top;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  li {
+    list-style-type: none;
+    img {
+      width: 50px;
+      @media (max-width: 600px) {
+        width: 35px;
+      }
+    }
+  }
+}
+.portfolio_center {
+  width: $width-main;
+  margin: 0 auto;
+  margin-top: $main-margin-top;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
