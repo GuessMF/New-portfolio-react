@@ -23,7 +23,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  border: white 1px solid;
+  //border: white 1px solid;
 
   h1 {
     font-style: normal;
@@ -61,7 +61,7 @@
 .dropdown {
   position: relative;
   display: inline-block;
-  border: white 1px solid;
+  // border: white 1px solid;
   right: $margin-left-header;
   transition: $transition;
 

@@ -58,15 +58,55 @@
       margin-left: 30px;
       color: $white-color;
       text-decoration: none;
+      transition: $transition;
+
+      a {
+        color: #fff;
+        text-transform: uppercase;
+        text-decoration: none;
+        // letter-spacing: 0.15em;
+        display: inline-block;
+        padding: 10px 5px;
+        font-size: 14px;
+        position: relative;
+        @media (max-width: 550px) {
+          font-size: 10px;
+          padding: 5px 0;
+        }
+        ::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 50%;
+          display: block;
+          background: none repeat scroll 0 0 transparent;
+          height: 2px;
+          width: 0;
+          background: #fff;
+          transition: width 0.3s ease 0s, left 0.3s ease 0s;
+        }
+        :hover::after {
+          width: 100%;
+          left: 0;
+          .active-link {
+            background-color: aqua;
+          }
+        }
+      }
     }
     .link {
       color: $white-color;
       text-decoration: none;
     }
     .active_link {
-      color: $white-color;
+      color: rgb(131, 47, 47);
       text-decoration: none;
-      border-bottom: $background-color 2px solid;
+      transition: $transition;
+
+      ::after {
+        width: 100%;
+        left: 0;
+      }
     }
   }
 }
