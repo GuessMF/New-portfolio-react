@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/React-Blog/static/css/main.a5a9a123.css",
-    "main.js": "/React-Blog/static/js/main.c8771707.js",
+    "main.css": "/React-Blog/static/css/main.c5b0b299.css",
+    "main.js": "/React-Blog/static/js/main.d224fb6c.js",
     "static/media/background.jpg": "/React-Blog/static/media/background.429e99d5147b4dff829d.jpg",
     "static/media/avatar.png": "/React-Blog/static/media/avatar.4acec347788172b14119.png",
     "static/media/Araney.png": "/React-Blog/static/media/Araney.9d079b8a2559c4615657.png",
@@ -25,11 +25,11 @@
     "static/media/js.png": "/React-Blog/static/media/js.3dfb665e058d08c99f28.png",
     "index.html": "/React-Blog/index.html",
     "static/media/test.txt": "/React-Blog/static/media/test.31d6cfe0d16ae931b73c.txt",
-    "main.a5a9a123.css.map": "/React-Blog/static/css/main.a5a9a123.css.map",
-    "main.c8771707.js.map": "/React-Blog/static/js/main.c8771707.js.map"
+    "main.c5b0b299.css.map": "/React-Blog/static/css/main.c5b0b299.css.map",
+    "main.d224fb6c.js.map": "/React-Blog/static/js/main.d224fb6c.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5a9a123.css",
-    "static/js/main.c8771707.js"
+    "static/css/main.c5b0b299.css",
+    "static/js/main.d224fb6c.js"
   ]
 }
