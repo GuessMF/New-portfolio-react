@@ -1,4 +1,5 @@
 import React from "react";
+import {useSpring, animated} from "@react-spring/web";
 
 import html_icon from "./images/html-5.png";
 import css_icon from "./images/css-3.png";
@@ -13,8 +14,22 @@ import git_icon from "./images/git.png";
 import style from "./AboutMe.module.scss";
 
 export default function AboutMe() {
+  const springs = useSpring({
+    from: {x: 0},
+    to: {x: 100},
+  });
+
   return (
     <div className={style.about_me}>
+      <animated.div
+        style={{
+          width: 80,
+          height: 80,
+          background: "#ff6d6d",
+          borderRadius: 8,
+          ...springs,
+        }}
+      />
       <div className={style.title}>
         О себе: ьькмьзук мзбукмбукй бмдуби ббуейиь ькмьзу кмзбукмб укйбмд
         убиббуе йиееь ькмь зукмз букмб укйбм дубибб уейиееьь кмьзук мзбук

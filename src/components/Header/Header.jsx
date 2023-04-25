@@ -31,6 +31,16 @@ export default function Header() {
               Projects
             </NavLink>
           </li>
+          <li>
+            <NavLink
+              to="/contacts"
+              className={({isActive}) =>
+                isActive ? style.active_link : style.link
+              }
+            >
+              Contacts
+            </NavLink>
+          </li>
         </div>
       </div>
     </div>

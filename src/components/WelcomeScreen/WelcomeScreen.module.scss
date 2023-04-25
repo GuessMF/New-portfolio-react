@@ -95,7 +95,11 @@
   align-content: center;
   margin-bottom: $main-margin-top;
 
-  width: 50%;
+  width: 60%;
+  border: white 1px solid;
+  @media (max-width: 745px) {
+    width: 100%;
+  }
 
   a {
     width: 60%;
@@ -122,6 +126,9 @@
       background-color: $background-color;
       border: $background-color 1px solid;
     }
+    @media (max-width: 745px) {
+      width: 100%;
+    }
   }
   // .buttons {
   //   width: 100%;
@@ -130,28 +137,4 @@
   //   flex-direction: row;
   //   justify-content: space-between;
   //   margin-bottom: $main-margin-top;
-  //   button {
-  //     height: $button-height;
-  //     width: $button-width;
-  //     display: flex;
-  //     flex-direction: row;
-  //     justify-content: center;
-  //     align-items: center;
-  //     font-size: 22px;
-  //     border-radius: 10px;
-  //     border: $white-color 1px solid;
-  //     background-color: $main-color;
-  //     color: $white-color;
-  //     transition: $transition;
-  //     cursor: pointer;
-  //     &:hover {
-  //       background-color: $background-color;
-  //       border: $background-color 1px solid;
-  //     }
-
-  //     img {
-  //       width: 30px;
-  //     }
-  //   }
-  // }
 }

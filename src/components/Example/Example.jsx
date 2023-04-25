@@ -23,8 +23,8 @@ export default function Example({
             <h4>{title}</h4>
             <p>
               Skills:
-              {stackIcon.map((icon) => {
-                return <img src={icon} alt="icon"></img>;
+              {stackIcon.map((icon, i) => {
+                return <img src={icon} alt="icon" key={i}></img>;
               })}
             </p>
 

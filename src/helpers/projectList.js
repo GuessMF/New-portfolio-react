@@ -19,7 +19,7 @@ import TAILWIND_icon from "./../components/pages/AboutMe/images/tailwind.png";
 const projects = [
   {
     title: "Araney",
-    // skills: "22222",
+    category: "Landings",
     img: Araney,
     stack: "HTML, SCSS, JS",
     stackIcon: [HTML_icon, SCSS_icon, JS_icon],
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     title: "LikeMe",
-    // skills: "22222",
+    category: "Landings",
     img: Like_Me,
     stack: "HTML, SCSS",
     stackIcon: [HTML_icon, SCSS_icon],
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     title: "PassGen",
-    // skills: "22222",
+    category: "TS",
     img: PassGen,
     stack: "HTML, TAILWIND, TS",
     stackIcon: [HTML_icon, TAILWIND_icon, TS_icon],
@@ -46,7 +46,7 @@ const projects = [
   },
   {
     title: "HeadPhones",
-    // skills: "22222",
+    category: "Landings",
     img: HeadPhones,
     stack: "HTML, SCSS",
     stackIcon: [HTML_icon, SCSS_icon],
@@ -55,7 +55,7 @@ const projects = [
   },
   {
     title: "TextFinder",
-    // skills: "22222",
+    category: "JS",
     img: TextFinder,
     stack: "HTML, CSS, JS",
     stackIcon: [HTML_icon, CSS_icon, JS_icon],
@@ -64,7 +64,7 @@ const projects = [
   },
   {
     title: "Armdstrong_Calculator_CSS_JS",
-    // skills: "22222",
+    category: "JS",
     img: Armstrong_Css,
     stack: "HTML, CSS, JS",
     stackIcon: [HTML_icon, CSS_icon, JS_icon],
@@ -73,7 +73,7 @@ const projects = [
   },
   {
     title: "Armstrong Canvas",
-    // skills: "22222",
+    category: "JS",
     img: Armstrong_Canvas,
     stack: "HTML, CSS, JS",
     stackIcon: [HTML_icon, CSS_icon, JS_icon],
@@ -82,7 +82,7 @@ const projects = [
   },
   {
     title: "Maze js",
-    // skills: "22222",
+    category: "JS",
     img: Maze,
     stack: "HTML, CSS, JS",
     stackIcon: [HTML_icon, CSS_icon, JS_icon],
@@ -91,7 +91,7 @@ const projects = [
   },
   {
     title: "ToDo",
-    // skills: "22222",
+    category: "JS",
     img: ToDo,
     stack: "HTML, CSS, JS",
     stackIcon: [HTML_icon, CSS_icon, JS_icon],
@@ -100,7 +100,7 @@ const projects = [
   },
   {
     title: "Tic Tac Toe",
-    // skills: "22222",
+    category: "JS",
     img: TicTacToe,
     stack: "HTML, CSS, JS",
     stackIcon: [HTML_icon, CSS_icon, JS_icon],

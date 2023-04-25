@@ -1,7 +1,7 @@
 import React from "react";
 import avatar_img from "./images/avatar.png";
 // import github_img from "./images/github.png";
-import telegram_img from "./images/telegram.png";
+
 import cv from "./files/test.txt";
 import download_icon from "./images/download_icon.png";
 import {NavLink} from "react-router-dom";
@@ -24,7 +24,6 @@ export default function WelcomeScreen() {
           </div>
 
           <div className={style.portfolio_bottom}>
-            {/* <button>Download Cv</button> */}
             <NavLink
               to="/projects"
               className={({isActive}) =>
@@ -34,14 +33,8 @@ export default function WelcomeScreen() {
               My Projects
             </NavLink>
             <a href={cv} download>
-              Download Cv <img src={download_icon}></img>
+              Download Cv <img src={download_icon} alt="download_icon"></img>
             </a>
-
-            {/* <button
-              onClick={() => (window.location = "https://t.me/sergey_pankow")}
-            >
-              Contact me <img src={telegram_img} alt="telegram_img"></img>
-            </button> */}
           </div>
         </div>
       </div>
