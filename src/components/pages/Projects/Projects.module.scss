@@ -32,6 +32,9 @@
     line-height: 16px;
     color: $white-color;
     margin-left: $margin-left-header;
+    @media (max-width: 450px) {
+      font-size: 20px;
+    }
   }
 }
 .title_bar {
@@ -62,24 +65,24 @@
   position: relative;
   display: inline-block;
   // border: white 1px solid;
-  right: $margin-left-header;
+  // right: $margin-left-header;
+  right: 15px;
   transition: $transition;
 
   button {
     width: fit-content;
     height: 40px;
-    background-color: #4caf50;
+    background-color: #6c6c6d;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
+    @media (max-width: 450px) {
+      height: 30px;
+      padding: 10px 20px;
+      font-size: 12px;
+    }
   }
-
-  // .dropdown {
-  //   position: relative;
-  //   display: inline-block;
-  // }
-
   .dropdown_content {
     display: none;
     position: absolute;
@@ -92,6 +95,13 @@
     right: 0px;
     z-index: 15;
     border: white 1px solid;
+    @media (max-width: 450px) {
+      // display: flex;
+      flex-direction: row;
+      top: 0;
+      right: 42px;
+      height: 28px;
+    }
   }
 
   .dropdown_content li {
@@ -100,6 +110,14 @@
     text-decoration: none;
     display: block;
     border-radius: 10px;
+    @media (max-width: 450px) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 10px 10px;
+      font-size: 12px;
+    }
   }
 
   .dropdown_content li:hover {
@@ -109,6 +127,9 @@
 
   .dropdown:hover .dropdown_content {
     display: block;
+    @media (max-width: 450px) {
+      display: flex;
+    }
   }
 
   .dropdown:hover .dropbtn {
@@ -117,9 +138,40 @@
   &:hover {
     .dropdown_content {
       display: block;
+      @media (max-width: 450px) {
+        display: flex;
+      }
     }
     button {
       background-color: #1dde23;
+    }
+  }
+}
+
+.test {
+  .test_bar {
+    background-color: #585656;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    width: fit-content;
+    border-radius: 10px;
+    li {
+      list-style-type: none;
+      padding: 10px 10px;
+    }
+    .active_test {
+      background-color: #1dde23;
+      border-radius: 10px;
+    }
+    .no_active_test {
+      opacity: 0.3;
+      // display: none;
+    }
+    .visible {
+      display: block;
     }
   }
 }

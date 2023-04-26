@@ -9,7 +9,8 @@ export default function Projects() {
   const categories = ["All", "Landings", "JS", "TS", "React"];
 
   const [activeIndex, setActiveIndex] = useState(0);
-
+  const [visible, setVisible] = useState(false);
+  console.log(visible);
   return (
     <div className={style.projects}>
       <div className={style.title}>
@@ -39,6 +40,21 @@ export default function Projects() {
             ))}
           </div>
         </div>
+        {/* <div className={style.test}>
+          <div className={style.test_bar} onClick={() => setVisible(!visible)}>
+            {categories.map((value, i) => (
+              <li
+                key={uuid()}
+                onClick={() => setActiveIndex(i)}
+                className={
+                  activeIndex === i ? style.active_test : style.no_active_test
+                }
+              >
+                {value}
+              </li>
+            ))}
+          </div>
+        </div> */}
       </div>
       <div className={style.example_works}>
         {activeIndex === 0

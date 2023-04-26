@@ -40,8 +40,10 @@
     line-height: 16px;
     color: $white-color;
     text-decoration: none;
-
     margin-left: $margin-left-header;
+    @media (max-width: 450px) {
+      font-size: 16px;
+    }
   }
   .right_content {
     display: flex;
@@ -72,6 +74,9 @@
         @media (max-width: 550px) {
           font-size: 10px;
           padding: 5px 0;
+        }
+        @media (max-width: 450px) {
+          font-size: 9px;
         }
         ::after {
           content: "";
