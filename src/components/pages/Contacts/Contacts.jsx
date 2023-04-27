@@ -15,7 +15,7 @@ export default function Contacts() {
         style={{
           background: "rgba(14, 18, 41, 0.926)",
           // height: "fit-content",
-          height: "50%",
+          height: "70%",
           borderRadius: "10px",
           margin: "0 5px 30px 5px",
           marginTop: "0px",
@@ -23,18 +23,14 @@ export default function Contacts() {
           ...springs,
         }}
       >
-        <button
-          onClick={() => (window.location = "https://t.me/sergey_pankow")}
-        >
-          Contact me <img src={telegram_img} alt="telegram_img"></img>
-        </button>
+        <div className={style.wrapper}>
+          <button
+            onClick={() => (window.location = "https://t.me/sergey_pankow")}
+          >
+            Contact me <img src={telegram_img} alt="telegram_img"></img>
+          </button>
+        </div>
       </animated.div>
     </>
-
-    // <div className={style.contacts}>
-    //   <button onClick={() => (window.location = "https://t.me/sergey_pankow")}>
-    //     Contact me <img src={telegram_img} alt="telegram_img"></img>
-    //   </button>
-    // </div>
   );
 }

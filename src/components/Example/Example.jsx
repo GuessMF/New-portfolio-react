@@ -27,9 +27,6 @@ export default function Example({
                 return <img src={icon} alt="icon" key={i}></img>;
               })}
             </p>
-
-            {/* <p>Stack: {stackIcon}</p> */}
-            <p>{/* Stack: <img src={stackIcon}></img> */}</p>
           </div>
         </div>
       </div>

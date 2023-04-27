@@ -7,6 +7,15 @@
   margin: 0 5px;
   margin-top: 80px;
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // background-color: beige;
+  height: 100%;
+}
 button {
   height: $button-height;
   width: $button-width;
@@ -28,5 +37,9 @@ button {
 
   img {
     width: 30px;
+    margin-left: 10px;
+  }
+  @media (max-width: 450px) {
+    width: 90%;
   }
 }

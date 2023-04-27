@@ -3,11 +3,9 @@ import style from "./Header.module.scss";
 import {NavLink} from "react-router-dom";
 
 export default function Header() {
-  const [click, setClick] = useState("");
-  function checkClick() {
-    console.log(click);
-  }
-  checkClick();
+  const actived = document.querySelector('[class*="active_link"]');
+  console.log(actived);
+
   return (
     <div className={style.header}>
       <div className={style.header__wrapper}>
@@ -22,9 +20,9 @@ export default function Header() {
               className={({isActive}) =>
                 isActive ? style.active_link : style.link
               }
-              onClick={() => setClick()}
+              onClick={() => console.log("test2")}
             >
-              <a>About me</a>
+              <span>About me</span>
             </NavLink>
           </li>
           <li>
@@ -34,7 +32,7 @@ export default function Header() {
                 isActive ? style.active_link : style.link
               }
             >
-              <a>Projects</a>
+              <span>Projects</span>
             </NavLink>
           </li>
           <li>
@@ -43,9 +41,8 @@ export default function Header() {
               className={({isActive}) =>
                 isActive ? style.active_link : style.link
               }
-              // onMouseOver={() => alert(isActive)}
             >
-              <a>Contacts</a>
+              <span>Contacts</span>
             </NavLink>
           </li>
         </div>

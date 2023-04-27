@@ -55,12 +55,29 @@
     //   display: none;
     // }
 
+    &:hover {
+      li {
+        // background-color: aqua;
+        .active_link {
+          // background-color: aqua;
+          ::after {
+            width: 0;
+          }
+        }
+      }
+    }
+
     li {
       list-style-type: none;
       margin-left: 30px;
       color: $white-color;
       text-decoration: none;
       transition: $transition;
+      &:hover {
+        .active_link {
+          // background-color: aqua;
+        }
+      }
 
       a {
         color: #fff;
@@ -88,6 +105,7 @@
           height: 2px;
           width: 0;
           background: #fff;
+          // background: blue;
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
         }
         :hover::after {
@@ -105,12 +123,15 @@
     }
     .active_link {
       color: rgb(131, 47, 47);
+      color: $white;
+      color: lighten($main-color, 50%);
       text-decoration: none;
       transition: $transition;
 
       ::after {
         width: 100%;
         left: 0;
+        // width: 0;
       }
     }
   }

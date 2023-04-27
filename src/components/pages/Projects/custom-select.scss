@@ -1,0 +1,47 @@
+@import "/src/var";
+.custom-select {
+  &__control {
+    background-color: $main-color !important;
+    border-radius: 10px !important;
+  }
+
+  &__value-container {
+    //  background-color: aquamarine;
+    padding: 0 !important;
+    color: $white-color !important;
+    // background-color: bisque !important;
+    // margin: 0 auto !important;
+    text-align: center !important;
+  }
+  &__placeholder {
+    color: $white-color !important;
+  }
+  &__single-value {
+    color: $white-color !important;
+  }
+  &__menu {
+    background-color: $main-color !important;
+    color: $white-color;
+    border-radius: 15px !important;
+    margin-bottom: 0 !important;
+  }
+  &__menu-list {
+    //  border-radius: 20px !important;
+    margin-bottom: 0 !important;
+  }
+  &__option {
+    cursor: pointer !important;
+    border-radius: 15px !important;
+    &--is-focused {
+      background-color: lighten($main-color, 20%) !important;
+      border-radius: 10px !important;
+      //   transition: $transition;
+      color: aqua;
+    }
+    &--is-selected {
+      //background-color: bisque !important;
+      border-radius: 10px !important;
+      background-color: lighten($main-color, 20%) !important;
+    }
+  }
+}

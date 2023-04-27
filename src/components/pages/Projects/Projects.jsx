@@ -2,62 +2,44 @@ import {React, useState} from "react";
 import style from "./Projects.module.scss";
 import Example from "../../Example/Example";
 import {projects} from "../../../helpers/projectList";
+import Select from "react-select";
+import "./custom-select.scss";
 
 import uuid from "react-uuid";
 
 export default function Projects() {
   const categories = ["All", "Landings", "JS", "TS", "React"];
+  const [value, setValue] = useState(0);
 
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [visible, setVisible] = useState(false);
-  console.log(visible);
+  const options = categories.map((value, i) => ({
+    value: value,
+    label: value,
+    index: i,
+  }));
+
   return (
     <div className={style.projects}>
       <div className={style.title}>
         <h1>Projects</h1>
-        <div className={style.title_bar}>
-          {categories.map((value, i) => (
-            <li
-              key={uuid()}
-              onClick={() => setActiveIndex(i)}
-              className={activeIndex === i ? style.active : ""}
-            >
-              {value}
-            </li>
-          ))}
+
+        <div className={style.select_bar}>
+          <Select
+            classNamePrefix="custom-select"
+            isSearchable={false}
+            name="color"
+            options={options}
+            placeholder="All"
+            value={value}
+            onChange={setValue}
+            // isMulti={true}
+            // isOptionSelected={true}
+            //isLoading={true}
+            // menuIsOpen={true}
+          />
         </div>
-        <div className={style.dropdown}>
-          <button>{categories[activeIndex]}</button>
-          <div className={style.dropdown_content}>
-            {categories.map((value, i) => (
-              <li
-                key={uuid()}
-                onClick={() => setActiveIndex(i)}
-                className={activeIndex === i ? style.active : ""}
-              >
-                {value}
-              </li>
-            ))}
-          </div>
-        </div>
-        {/* <div className={style.test}>
-          <div className={style.test_bar} onClick={() => setVisible(!visible)}>
-            {categories.map((value, i) => (
-              <li
-                key={uuid()}
-                onClick={() => setActiveIndex(i)}
-                className={
-                  activeIndex === i ? style.active_test : style.no_active_test
-                }
-              >
-                {value}
-              </li>
-            ))}
-          </div>
-        </div> */}
       </div>
       <div className={style.example_works}>
-        {activeIndex === 0
+        {value.index === 0 || value.index === undefined
           ? projects.map((project, index) => {
               return (
                 <Example
@@ -72,7 +54,7 @@ export default function Projects() {
               );
             })
           : projects.map((project, index) => {
-              return project.category === categories[activeIndex] ? (
+              return project.category === categories[value.index] ? (
                 <Example
                   key={uuid()}
                   title={project.title}
@@ -91,14 +73,3 @@ export default function Projects() {
     </div>
   );
 }
-// return (
-//   <Example
-//     key={uuid()}
-//     title={project.title}
-//     img={project.img}
-//     gitHubLink={project.gitHubLink}
-//     stack={project.stack}
-//     stackIcon={project.stackIcon}
-//     index={index}
-//   />
-// );

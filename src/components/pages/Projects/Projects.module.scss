@@ -37,6 +37,15 @@
     }
   }
 }
+.select_bar {
+  width: 20%;
+  border-radius: 0px;
+  z-index: 10;
+  @media (max-width: 500px) {
+    width: 40%;
+  }
+}
+
 .title_bar {
   display: none;
   flex-direction: row;
@@ -83,6 +92,7 @@
       font-size: 12px;
     }
   }
+
   .dropdown_content {
     display: none;
     position: absolute;
