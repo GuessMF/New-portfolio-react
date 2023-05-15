@@ -8,6 +8,7 @@ import Armstrong_Css from "./../components/Example/images/Armstrong_Css.png";
 import Maze from "./../components/Example/images/Maze.png";
 import ToDo from "./../components/Example/images/ToDo.png";
 import TicTacToe from "./../components/Example/images/TicTacToe.png";
+import Recording from "./../components/Example/images/Recording.png";
 
 import HTML_icon from "./../components/pages/AboutMe/images/html-5.png";
 import CSS_icon from "./../components/pages/AboutMe/images/css-3.png";
@@ -34,6 +35,15 @@ const projects = [
     stackIcon: [HTML_icon, SCSS_icon],
     link: "https://guessmf.github.io/Likeme_landing/",
     gitHubLink: "https://github.com//GuessMf/Likeme_landing",
+  },
+  {
+    title: "Recording",
+    category: "Landings",
+    img: Recording,
+    stack: "HTML, SCSS, Gulp, JS",
+    stackIcon: [HTML_icon, SCSS_icon, JS_icon],
+    link: "https://guessmf.github.io/Recording-landing/",
+    gitHubLink: "https://github.com/GuessMF/Recording-landing",
   },
   {
     title: "PassGen",
