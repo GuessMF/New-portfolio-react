@@ -1,8 +1,8 @@
 {
   "name": "test",
   "version": "0.1.0",
-  "homepage": "https://guessmf.github.io/New-portfolio-react/",
-  "private": true,
+  "homepage": "https://sergey-pankov.ru/",
+  "private": false,
   "dependencies": {
     "@babel/core": "^7.16.0",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.3",
@@ -70,6 +70,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
+    "add-domain": "echo 'sergey-pankov.ru' > build/ CNAME",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
   },
