@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.465e3231.css",
-    "main.js": "/static/js/main.087ba7a8.js",
-    "static/media/background.webp": "/static/media/background.99337b9370238be5f055.webp",
-    "static/media/avatar.png": "/static/media/avatar.4acec347788172b14119.png",
+    "main.css": "/static/css/main.713dff3a.css",
+    "main.js": "/static/js/main.d23b909f.js",
     "static/media/Araney.png": "/static/media/Araney.9d079b8a2559c4615657.png",
     "static/media/PassGen.png": "/static/media/PassGen.3f5b39e812a391872ead.png",
+    "static/media/background.webp": "/static/media/background.75c1a4b4e0242d6bb45b.webp",
     "static/media/HeadPhones.png": "/static/media/HeadPhones.5ce909d169987bf9e646.png",
     "static/media/TextFinder.png": "/static/media/TextFinder.e567de9e3a5e14e54c31.png",
     "static/media/Like_Me.png": "/static/media/Like_Me.1e25cd1ce8e3df4a7bfc.png",
@@ -18,6 +17,7 @@
     "static/media/TicTacToe.png": "/static/media/TicTacToe.7a1dc69858dc2b22795f.png",
     "static/media/git.png": "/static/media/git.00e5bd772731dbe33649.png",
     "static/media/telegram.png": "/static/media/telegram.e9722f26cc228e817986.png",
+    "static/media/avatar.webp": "/static/media/avatar.8bd61c0dc6902408223b.webp",
     "static/media/ToDo.png": "/static/media/ToDo.5926040f3eb9f3e9f867.png",
     "static/media/github.png": "/static/media/github.f11021803f68852df283.png",
     "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
@@ -30,11 +30,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "static/media/test.txt": "/static/media/test.31d6cfe0d16ae931b73c.txt",
-    "main.465e3231.css.map": "/static/css/main.465e3231.css.map",
-    "main.087ba7a8.js.map": "/static/js/main.087ba7a8.js.map"
+    "main.713dff3a.css.map": "/static/css/main.713dff3a.css.map",
+    "main.d23b909f.js.map": "/static/js/main.d23b909f.js.map"
   },
   "entrypoints": [
-    "static/css/main.465e3231.css",
-    "static/js/main.087ba7a8.js"
+    "static/css/main.713dff3a.css",
+    "static/js/main.d23b909f.js"
   ]
 }
