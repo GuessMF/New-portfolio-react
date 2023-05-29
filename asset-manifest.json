@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.841ebbe9.css",
-    "main.js": "/static/js/main.d64a3e8f.js",
+    "main.css": "/static/css/main.70e3f647.css",
+    "main.js": "/static/js/main.8c0219be.js",
     "static/media/Araney.webp": "/static/media/Araney.95b4615ea09816858315.webp",
     "static/media/TextFinder.webp": "/static/media/TextFinder.ee08f659fa12da8b50e3.webp",
     "static/media/HeadPhones.webp": "/static/media/HeadPhones.d54895051b4452b8f64e.webp",
@@ -33,11 +33,11 @@
     "static/media/download_icon.webp": "/static/media/download_icon.16dfa5306b771fa457f2.webp",
     "index.html": "/index.html",
     "static/media/test.txt": "/static/media/test.31d6cfe0d16ae931b73c.txt",
-    "main.841ebbe9.css.map": "/static/css/main.841ebbe9.css.map",
-    "main.d64a3e8f.js.map": "/static/js/main.d64a3e8f.js.map"
+    "main.70e3f647.css.map": "/static/css/main.70e3f647.css.map",
+    "main.8c0219be.js.map": "/static/js/main.8c0219be.js.map"
   },
   "entrypoints": [
-    "static/css/main.841ebbe9.css",
-    "static/js/main.d64a3e8f.js"
+    "static/css/main.70e3f647.css",
+    "static/js/main.8c0219be.js"
   ]
 }
