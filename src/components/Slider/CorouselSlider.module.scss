@@ -1,0 +1,21 @@
+@import "/src/var";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.corousel {
+  width: 90%;
+  margin: 0 auto;
+  img {
+    width: 50px;
+  }
+  @media (max-width: 550px) {
+    img {
+      width: 40px;
+    }
+  }
+  @media (max-width: 430px) {
+    img {
+      width: 35px;
+    }
+  }
+}

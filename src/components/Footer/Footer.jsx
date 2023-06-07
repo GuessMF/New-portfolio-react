@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Footer.module.scss";
-import github_img from "./images/github.png";
+import github_img from "./images/github.webp";
 
 export default function Footer() {
   return (

@@ -1,43 +1,64 @@
 import React from "react";
-import avatar_img from "./images/avatar.png";
-// import github_img from "./images/github.png";
+import {NavLink} from "react-router-dom";
+import {useSpring, animated} from "@react-spring/web";
+
+import {useTranslation} from "react-i18next";
 
 import cv from "./files/test.txt";
-import download_icon from "./images/download_icon.png";
-import {NavLink} from "react-router-dom";
+import avatar_img from "./images/avatar.webp";
+import download_icon from "./images/download_icon.webp";
 
 import style from "./WelcomeScreen.module.scss";
 
 export default function WelcomeScreen() {
-  return (
-    <div className={style.wrapper}>
-      <div className={style.welcome_screen}>
-        <div className={style.portfolio_information}>
-          <div className={style.portfolio_top}>
-            <div className={style.portfolio_img}>
-              <img src={avatar_img} alt="avatar_img"></img>
-            </div>
-            <div className={style.portfolio_block}>
-              <h1>Sergey Pankov</h1>
-              <h3>Frontend Web-Developer</h3>
-            </div>
-          </div>
+  const springs = useSpring({
+    from: {opacity: 0},
+    to: {opacity: 1},
+  });
 
-          <div className={style.portfolio_bottom}>
-            <NavLink
-              to="/projects"
-              className={({isActive}) =>
-                isActive ? style.active_link : style.link
-              }
-            >
-              My Projects
-            </NavLink>
-            <a href={cv} download>
-              Download Cv <img src={download_icon} alt="download_icon"></img>
-            </a>
+  const {t, i18n} = useTranslation();
+  return (
+    <>
+      <animated.div
+        style={{
+          background: "rgba(14, 18, 41, 0.926)",
+          height: "100%",
+          borderRadius: "10px",
+          margin: "0px 5px ",
+          ...springs,
+        }}
+      >
+        <div className={style.welcome_screen}>
+          <div className={style.portfolio_information}>
+            <div className={style.portfolio_top}>
+              <div className={style.portfolio_img}>
+                <img src={avatar_img} alt="avatar_img"></img>
+              </div>
+              <div className={style.portfolio_block}>
+                {/* <h1>Sergey Pankov</h1> */}
+                <h1>{t("name")}</h1>
+                <h3>{t("post")}</h3>
+                {/* <h3>Frontend Web-Developer</h3> */}
+              </div>
+            </div>
+
+            <div className={style.portfolio_bottom}>
+              <NavLink
+                to="/projects"
+                className={({isActive}) =>
+                  isActive ? style.active_link : style.link
+                }
+              >
+                {t("myProjects")}
+              </NavLink>
+              <a href={cv} download>
+                {t("downloadCv")}
+                <img src={download_icon} alt="download_icon"></img>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      </animated.div>
+    </>
   );
 }

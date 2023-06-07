@@ -1,0 +1,10 @@
+:root {
+  --background-color-theme1: red;
+  --font-color-theme1: blue;
+
+  --background-color-theme2: rgb(178, 211, 31);
+  --font-color-theme2: rgb(53, 146, 53);
+
+  --background-color: var(var(--background-color-theme1));
+  --font-color: var(var(--font-color-theme1));
+}

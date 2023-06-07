@@ -5,9 +5,7 @@ import WelcomeScreen from "../WelcomeScreen/WelcomeScreen";
 export default function Main() {
   return (
     <div className={style.main}>
-      <div className={style.main_wrapper}>
-        <WelcomeScreen />
-      </div>
+      <WelcomeScreen />
     </div>
   );
 }

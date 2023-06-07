@@ -1,47 +1,46 @@
 @import "/src/var";
 .custom-select {
   &__control {
-    background-color: $main-color !important;
+    // background-color: $main-color !important;
+    background: var(--color-background) !important;
     border-radius: 10px !important;
   }
 
   &__value-container {
-    //  background-color: aquamarine;
     padding: 0 !important;
-    color: $white-color !important;
-    // background-color: bisque !important;
-    // margin: 0 auto !important;
+    color: var(--color-text) !important;
     text-align: center !important;
   }
   &__placeholder {
-    color: $white-color !important;
+    color: var(--color-text) !important;
   }
   &__single-value {
-    color: $white-color !important;
+    color: var(--color-text) !important;
   }
   &__menu {
-    background-color: $main-color !important;
-    color: $white-color;
+    // background-color: $main-color !important;
+    background: var(--main-color) !important;
+    color: var(--color-text);
     border-radius: 15px !important;
     margin-bottom: 0 !important;
   }
   &__menu-list {
-    //  border-radius: 20px !important;
     margin-bottom: 0 !important;
   }
   &__option {
     cursor: pointer !important;
     border-radius: 15px !important;
     &--is-focused {
-      background-color: lighten($main-color, 20%) !important;
+      //   background-color: lighten($main-color, 20%) !important;
+      background-color: var(--color-background) !important;
+      // color: var(--color-background) !important;
       border-radius: 10px !important;
-      //   transition: $transition;
-      color: aqua;
     }
     &--is-selected {
-      //background-color: bisque !important;
       border-radius: 10px !important;
-      background-color: lighten($main-color, 20%) !important;
+      //background-color: lighten($main-color, 20%) !important;
+      color: var(--color-text) !important;
+      background-color: var(--color-background) !important;
     }
   }
 }

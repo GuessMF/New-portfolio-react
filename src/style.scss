@@ -1,22 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
 @import "/src/var";
 
+html {
+  background: var(--color-background);
+  height: 100vh;
+}
+@media (max-width: 428px) {
+  /* Цвет статус бара */
+  :root {
+    --status-bar-color: #d9d911;
+  }
+}
+
+@media (min-width: 429px) {
+  /* Цвет статус бара */
+  :root {
+    --status-bar-color: #dc0e0e;
+  }
+}
 body {
   margin: 0 auto;
   font-family: "DM Sans", sans-serif;
   max-width: 1440px;
   width: 100%;
-  background-color: $background-color;
-  // background-image: url("./images/background.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("./images/background.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  color: var(--color-text);
+  background: var(--color-background);
+  height: 100vh;
   overflow-x: hidden;
+  cursor: default;
+  transition: all 1s;
+  // @media not all and (hover: none);
 }
 
 body::-webkit-scrollbar {
   width: 0;
 }
+// .dark {
+//   background: $background-color-dark;
+//   // $main-color: blue;
+// }

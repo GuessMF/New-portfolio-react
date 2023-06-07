@@ -1,14 +1,15 @@
 import React from "react";
 import style from "./Project.module.scss";
-import github_img from "./images/github.png";
-import githubpages_img from "./images/githubpages.png";
+import github_img from "./images/github.webp";
+import githubpages_img from "./images/githubpages.webp";
 import {useParams} from "react-router-dom";
 import {projects} from "../../helpers/projectList";
+import {useTranslation} from "react-i18next";
 
 export default function Project() {
   const {id} = useParams();
   const project = projects[id];
-
+  const {t, i18n} = useTranslation();
   return (
     <div className={style.main}>
       <div className={style.main_wrapper}>
@@ -19,7 +20,7 @@ export default function Project() {
         </div>
         <div className={style.project_skills}>
           <span>
-            Skills: <h3>{project.stack}</h3>
+            {t("stack")} <h3>{project.stack}</h3>
           </span>
         </div>
         <div className={style.buttons}>

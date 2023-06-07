@@ -8,13 +8,9 @@
   width: $button-width;
 
   height: 320px;
-  background-color: $white-color;
+  //background-color: var(--color-background);
   border-radius: 15px;
   border: none;
-
-  // @media (max-width: 913px) {
-  //   width: 80%;
-  // }
 
   &:hover {
     .subtitle {
@@ -48,7 +44,7 @@
   left: -3px;
   width: 102%;
   height: 10%;
-  background-color: $main-color;
+  background-color: var(--color-background);
   border-radius: 15px;
 
   transition: all 1s;
@@ -57,16 +53,14 @@
     margin: 0;
     text-align: center;
     font-size: 20px;
-    //margin-left: 10px;
-
-    color: $white-color;
+    color: var(--color-text);
     @media (max-width: 390px) {
       font-size: 16px;
     }
   }
   p {
     margin-left: 10px;
-    color: $white-color;
+    color: var(--color-text);
     opacity: 0;
     transition: opacity 0.8s;
   }

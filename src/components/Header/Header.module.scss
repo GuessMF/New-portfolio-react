@@ -13,22 +13,23 @@
   top: 0;
   left: auto;
   right: auto;
-  z-index: 9;
-  // opacity: 0.3;
+  z-index: 11;
+  // padding-top: env(safe-area-inset-top);
 }
 .header__wrapper {
-  background-color: $main-color;
-
+  background: var(--main-color-light);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  color: $white;
+  // color: var(--color-text);
+
   height: 100%;
   margin: 0 5px;
   border-radius: 10px;
-
+  // background-color: $main-color;
+  background: var(--main-color);
   .brand_name {
     display: flex;
     flex-direction: row;
@@ -38,7 +39,8 @@
     font-weight: 600;
     font-size: 26px;
     line-height: 16px;
-    color: $white-color;
+    // color: $white-color;
+    color: var(--color-text);
     text-decoration: none;
     margin-left: $margin-left-header;
     @media (max-width: 450px) {
@@ -51,15 +53,9 @@
     justify-content: center;
     align-items: center;
     margin-right: $margin-left-header;
-    // @media (max-width: 400px) {
-    //   display: none;
-    // }
-
     &:hover {
       li {
-        // background-color: aqua;
         .active_link {
-          // background-color: aqua;
           ::after {
             width: 0;
           }
@@ -69,21 +65,16 @@
 
     li {
       list-style-type: none;
-      margin-left: 30px;
-      color: $white-color;
+      // margin-left: 30px; // поправить!!!!!
+      margin-left: 10px;
+      // color: var(--color-text);
       text-decoration: none;
       transition: $transition;
-      &:hover {
-        .active_link {
-          // background-color: aqua;
-        }
-      }
-
       a {
-        color: #fff;
+        // color: var(--color-text);
+
         text-transform: uppercase;
         text-decoration: none;
-        // letter-spacing: 0.15em;
         display: inline-block;
         padding: 10px 5px;
         font-size: 14px;
@@ -104,34 +95,33 @@
           background: none repeat scroll 0 0 transparent;
           height: 2px;
           width: 0;
-          background: #fff;
-          // background: blue;
+          //  background: #fff;
+          background: var(--color-text);
           transition: width 0.3s ease 0s, left 0.3s ease 0s;
         }
         :hover::after {
           width: 100%;
           left: 0;
           .active-link {
-            background-color: aqua;
+            //   background-color: aqua;
           }
         }
       }
     }
     .link {
-      color: $white-color;
+      color: var(--color-text);
       text-decoration: none;
     }
     .active_link {
       color: rgb(131, 47, 47);
       color: $white;
-      color: lighten($main-color, 50%);
+      // color: lighten($main-color, 50%);
       text-decoration: none;
       transition: $transition;
 
       ::after {
         width: 100%;
         left: 0;
-        // width: 0;
       }
     }
   }

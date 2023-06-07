@@ -1,19 +1,65 @@
 @import "/src/var";
-.about_me {
-  background-color: $main-color;
 
+.wrapper {
+  max-width: 1440px;
+  width: 100%;
   height: fit-content;
-  height: 81vh;
-  border-radius: 10px;
-  margin: 0 5px;
+  height: 100%;
+  margin: 0 auto;
   margin-top: 80px;
 }
+.about_me {
+  //background-color: $main-color;
+  background: var(--main-color);
+  max-height: fit-content;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+
+  h4 {
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 16px;
+    color: var(--color-text);
+
+    margin-top: $main-margin-top * 2.5;
+    margin-bottom: $main-margin-top;
+    margin-left: $margin-left-header;
+    @media (max-width: 450px) {
+      font-size: 20px;
+    }
+  }
+  .title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 16px;
+    color: var(--color-text);
+    margin-top: 0;
+    padding-top: 26px;
+    margin-left: $margin-left-header;
+    @media (max-width: 450px) {
+      font-size: 20px;
+    }
+  }
+}
+
 .statistic {
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   height: fit-content;
+  @media (max-width: 430px) {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    div {
+      text-align: center;
+    }
+  }
 
   div {
     margin-top: $main-margin-top;
@@ -26,22 +72,24 @@
   span {
     margin: 0 auto;
     font-size: 24px;
-    color: $white-color;
+    color: var(--color-text);
   }
   h3 {
     margin: 0;
-    color: $white-color;
+    color: var(--color-text);
   }
 }
 
-.title {
+.information {
   width: $width-main;
-
+  font-style: normal;
+  line-height: 26px;
   margin: 0 auto;
-  margin-top: $main-margin-top;
   height: fit-content;
-  color: $white-color;
-  padding-top: $main-margin-top;
+  color: var(--color-text);
+  @media (max-width: 430px) {
+    font-size: 14px;
+  }
 }
 .stack {
   display: flex;

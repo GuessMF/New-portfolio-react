@@ -1,0 +1,89 @@
+@import "/src/var";
+.custom-select-header {
+  &__control {
+    // background-color: $main-color !important;
+    background: var(--color-background) !important;
+    background: var(--main-color) !important;
+    //background-color: rgb(102, 155, 155) !important;
+    border-radius: 10px !important;
+
+    min-height: 0 !important;
+    height: 20px !important;
+    border: var(--color-text) 1px solid !important;
+  }
+
+  &__value-container {
+    padding: 0 !important;
+    color: var(--color-text) !important;
+    text-align: center !important;
+    font-size: 14px !important;
+    margin-left: 10px !important;
+    margin-right: 0 !important;
+    height: 80% !important;
+  }
+
+  // &__indicator-container {
+  //   background-color: green !important;
+  //   padding: 0 !important;
+  //   height: 100% !important;
+  // }
+  &__indicators {
+    // background-color: green !important;
+    height: 100% !important;
+    svg {
+      fill: var(--color-background) !important;
+    }
+  }
+  &__single-value {
+    //  background-color: red !important;
+    margin-top: -3px !important;
+  }
+
+  &__placeholder {
+    // background-color: red !important;
+    height: fit-content !important;
+    padding: 0 !important;
+    margin-top: -3px !important;
+  }
+
+  &__indicator-separator {
+    width: 0 !important;
+  }
+  &__placeholder {
+    color: var(--color-text) !important;
+  }
+  &__single-value {
+    color: var(--color-text) !important;
+  }
+  &__menu {
+    // background-color: $main-color !important;
+    background: var(--main-color) !important;
+    color: var(--color-text);
+    border-radius: 10px !important;
+    margin-bottom: 0 !important;
+  }
+  &__menu-list {
+    margin-bottom: 0 !important;
+    padding: 0 !important;
+    border-radius: 10px !important;
+  }
+  &__option {
+    cursor: pointer !important;
+    border-radius: 15px !important;
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+    &--is-focused {
+      //   background-color: lighten($main-color, 20%) !important;
+      // background-color: var(--color-background) !important;
+      background-color: var(--main-color) !important;
+      // color: var(--color-background) !important;
+      border-radius: 10px !important;
+    }
+    &--is-selected {
+      border-radius: 10px !important;
+      //background-color: lighten($main-color, 20%) !important;
+      color: var(--color-text) !important;
+      background-color: var(--color-background) !important;
+    }
+  }
+}

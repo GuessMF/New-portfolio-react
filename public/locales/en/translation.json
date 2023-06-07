@@ -1,0 +1,20 @@
+{
+  "name": "Sergey Pankov",
+  "post": "Frontend Web-Developer",
+  "aboutMe": "About me",
+  "projects": "Projects",
+  "contacts": "Contacts",
+  "downloadCv": "Download Cv",
+  "myProjects": "My projects",
+  "allMyStack": "All my stack:",
+  "worksInPortfolio": "Works in my portfolio:",
+  "aboutMeText1": "I am a web developer with 2 years of experience.",
+  "aboutMeText2": " I specialize in website and application development.",
+  "aboutMeText3": " My technology stack includes HTML, CSS, JavaScript, React and Node.js",
+  "aboutMeText4": " I have experience working with MySQL and MongoDB databases",
+  "aboutMeText5": " I also have experience working with Git and GitHub.",
+  "all": "All",
+  "stack": "Stack:",
+  "contactMe": "You can contact me with:",
+  "checkMyRepo": "You can check my repository:"
+}
