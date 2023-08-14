@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d702ad5.css",
-    "main.js": "/static/js/main.bbb4b4b3.js",
+    "main.js": "/static/js/main.3fdc8b0c.js",
     "static/media/Araney.webp": "/static/media/Araney.95b4615ea09816858315.webp",
     "static/media/TextFinder.webp": "/static/media/TextFinder.ee08f659fa12da8b50e3.webp",
     "static/media/HeadPhones.webp": "/static/media/HeadPhones.d54895051b4452b8f64e.webp",
@@ -36,10 +36,10 @@
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/test.txt": "/static/media/test.31d6cfe0d16ae931b73c.txt",
     "main.0d702ad5.css.map": "/static/css/main.0d702ad5.css.map",
-    "main.bbb4b4b3.js.map": "/static/js/main.bbb4b4b3.js.map"
+    "main.3fdc8b0c.js.map": "/static/js/main.3fdc8b0c.js.map"
   },
   "entrypoints": [
     "static/css/main.0d702ad5.css",
-    "static/js/main.bbb4b4b3.js"
+    "static/js/main.3fdc8b0c.js"
   ]
 }
