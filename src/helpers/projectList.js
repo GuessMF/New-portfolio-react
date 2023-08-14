@@ -20,6 +20,15 @@ import TAILWIND_icon from "./../components/Slider/images/tailwind.webp";
 
 const projects = [
   {
+    title: "Rilab",
+    category: "Landings",
+    // img: Araney,
+    stack: "HTML,CSS, JS",
+    stackIcon: [HTML_icon, CSS_icon, JS_icon],
+    link: "https://rilab.ru",
+    gitHubLink: "https://github.com//GuessMf/Araney-main",
+  },
+  {
     title: "Araney",
     category: "Landings",
     img: Araney,

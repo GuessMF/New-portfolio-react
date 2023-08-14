@@ -10,6 +10,7 @@ import {Audio} from "react-loader-spinner";
 import "./utils/18n.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //const history = createMemoryHistory();
+
 root.render(
   <Router basename={process.env.PUBLIC_URL}>
     <Suspense

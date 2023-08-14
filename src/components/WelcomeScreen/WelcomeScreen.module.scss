@@ -7,6 +7,7 @@
   align-items: center;
   // background-color: $main-color;
   background: var(--main-color);
+
   height: 100%;
   border-radius: 10px;
   margin-top: 0;
@@ -120,9 +121,11 @@
     padding: 0 auto;
     margin: 15px auto;
     img {
+      // border: black 1px solid;
       width: 28px;
-      filter: invert(100%); //поменять
-      margin-left: 10px;
+      height: 20px;
+
+      margin-left: 6px;
     }
     &:hover {
       background-color: var(--color-background);

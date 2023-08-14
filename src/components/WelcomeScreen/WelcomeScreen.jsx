@@ -7,6 +7,7 @@ import {useTranslation} from "react-i18next";
 import cv from "./files/test.txt";
 import avatar_img from "./images/avatar.webp";
 import download_icon from "./images/download_icon.webp";
+import download_i from "./images/download.svg";
 
 import style from "./WelcomeScreen.module.scss";
 
@@ -21,7 +22,7 @@ export default function WelcomeScreen() {
     <>
       <animated.div
         style={{
-          background: "rgba(14, 18, 41, 0.926)",
+          // background: "rgba(14, 18, 41, 0.926)",
           height: "100%",
           borderRadius: "10px",
           margin: "0px 5px ",
@@ -53,7 +54,8 @@ export default function WelcomeScreen() {
               </NavLink>
               <a href={cv} download>
                 {t("downloadCv")}
-                <img src={download_icon} alt="download_icon"></img>
+                {/* <img src={download_icon} alt="download_icon"></img> */}
+                <img src={download_i}></img>
               </a>
             </div>
           </div>

@@ -40,14 +40,13 @@
 }
 .subtitle {
   position: absolute;
-  bottom: 0;
-  left: -3px;
-  width: 102%;
+  bottom: -1px;
+  width: 100%;
   height: 10%;
   background-color: var(--color-background);
   border-radius: 15px;
 
-  transition: all 1s;
+  transition: all 0.5s;
 
   h4 {
     margin: 0;
@@ -62,7 +61,8 @@
     margin-left: 10px;
     color: var(--color-text);
     opacity: 0;
-    transition: opacity 0.8s;
+    // transition: opacity 0.8s;
+    // transition: 0.1s;
   }
   img {
     margin-left: 10px;

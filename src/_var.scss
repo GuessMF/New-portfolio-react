@@ -11,16 +11,32 @@ $header-height: 70px;
 
 $app-height: calc(100vh - 2px);
 
-$dark-blue: rgba(14, 18, 41, 0.926);
-// $blue: #4682b4;
-$blue: #191970;
-$white: #ffffff;
-$white2: rgba(201, 201, 207, 0.98);
+//$dark-blue: rgba(14, 18, 41, 0.926);
+$dark-blue: #202123;
+$blue: #050509; //переименовать цвета
 
+$white: #ececf1;
+// $white2: rgba(201, 201, 207, 0.98);
+$white2: #d9d9e3;
+// --gray-50: #f7f7f8;
+// --gray-100: #ececf1;
+// --gray-200: #d9d9e3;
+// --gray-300: #c5c5d2;
+// --gray-400: #acacbe;
+// --gray-500: #8e8ea0;
+// --gray-600: #565869;
+// --gray-700: #40414f;
+// --gray-800: #343541;
+// --gray-900: #202123;
+// --gray-950: #050509;
+$red: #d91136;
 html[data-theme="light"] {
   --color-text: #{$dark-blue};
   --color-background: #{$white};
   --main-color: #{$white2};
+  meta[name="theme-color"] {
+    content: $red;
+  }
 }
 
 html[data-theme="dark"] {

@@ -27,7 +27,7 @@ export default function Projects() {
     <div className={style.wrapper}>
       <animated.div
         style={{
-          background: "rgba(14, 18, 41, 0.926)",
+          // background: "rgba(14, 18, 41, 0.926)",
           height: "100%",
           borderRadius: "10px",
           margin: "0px 5px ",
