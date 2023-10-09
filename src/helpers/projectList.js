@@ -1,3 +1,6 @@
+import Ecars from "./../components/Example/images/Ecars.webp";
+import Kema from "./../components/Example/images/Kema.webp";
+
 import Araney from "./../components/Example/images/Araney.webp";
 import Like_Me from "./../components/Example/images/Like_Me.webp";
 import PassGen from "./../components/Example/images/PassGen.webp";
@@ -19,6 +22,24 @@ import TS_icon from "./../components/Slider/images/typescript.webp";
 import TAILWIND_icon from "./../components/Slider/images/tailwind.webp";
 
 const projects = [
+  {
+    title: "Ecars",
+    category: "TS",
+    // img: Araney,
+    stack: "HTML,CSS, React, TS",
+    stackIcon: [HTML_icon, CSS_icon, TS_icon],
+    link: "https://guessmf.github.io/Ecars/",
+    gitHubLink: "https://github.com//GuessMf/Ecars",
+  },
+  {
+    title: "Kema Fitness",
+    category: "Landings",
+    // img: Araney,
+    stack: "HTML, CSS, JS, Jquery, GSAP",
+    stackIcon: [HTML_icon, CSS_icon, JS_icon],
+    link: "https://guessmf.github.io/KEMA-Fitness/",
+    gitHubLink: "https://github.com//GuessMf/KEMA-Fitness",
+  },
   {
     title: "Rilab",
     category: "Landings",
