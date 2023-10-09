@@ -1,5 +1,6 @@
 import Ecars from "./../components/Example/images/Ecars.webp";
 import Kema from "./../components/Example/images/Kema.webp";
+import Rilab from "./../components/Example/images/Rilab.webp";
 
 import Araney from "./../components/Example/images/Araney.webp";
 import Like_Me from "./../components/Example/images/Like_Me.webp";
@@ -25,7 +26,7 @@ const projects = [
   {
     title: "Ecars",
     category: "TS",
-    // img: Araney,
+    img: Ecars,
     stack: "HTML,CSS, React, TS",
     stackIcon: [HTML_icon, CSS_icon, TS_icon],
     link: "https://guessmf.github.io/Ecars/",
@@ -34,7 +35,7 @@ const projects = [
   {
     title: "Kema Fitness",
     category: "Landings",
-    // img: Araney,
+    img: Kema,
     stack: "HTML, CSS, JS, Jquery, GSAP",
     stackIcon: [HTML_icon, CSS_icon, JS_icon],
     link: "https://guessmf.github.io/KEMA-Fitness/",
@@ -43,7 +44,7 @@ const projects = [
   {
     title: "Rilab",
     category: "Landings",
-    // img: Araney,
+    img: Rilab,
     stack: "HTML,CSS, JS",
     stackIcon: [HTML_icon, CSS_icon, JS_icon],
     link: "https://rilab.ru",
