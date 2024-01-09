@@ -13,7 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <Router basename={process.env.PUBLIC_URL}>
-    <Suspense
+    {/* <Suspense
       fallback={
         <Audio
           height="80"
@@ -25,9 +25,9 @@ root.render(
           wrapperClass
         />
       }
-    >
-      <App />
-    </Suspense>
+    > */}
+    <App />
+    {/* </Suspense> */}
   </Router>
   // <React.StrictMode>
 

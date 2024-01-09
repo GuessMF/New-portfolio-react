@@ -1,5 +1,5 @@
 import Ecars from "./../components/Example/images/Ecars.webp";
-import Kema from "./../components/Example/images/Kema.webp";
+import Kema from "./../components/Example/images/Kema-fitness.webp";
 import Rilab from "./../components/Example/images/Rilab.webp";
 
 import Araney from "./../components/Example/images/Araney.webp";
