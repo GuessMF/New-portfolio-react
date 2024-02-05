@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.c7ff7659.css",
-    "main.js": "/static/js/main.cce3a011.js",
+    "main.js": "/static/js/main.5d2c81ec.js",
     "static/media/Ecars.webp": "/static/media/Ecars.ae1f64a9af1d3c12d98c.webp",
     "static/media/Rilab.webp": "/static/media/Rilab.14a749fd94278616d8b5.webp",
     "static/media/Kema-fitness.webp": "/static/media/Kema-fitness.271a6f26e04f71f3e275.webp",
+    "static/media/gsap.svg": "/static/media/gsap.e0008308939a74c731ce5747ddd70439.svg",
     "static/media/Araney.webp": "/static/media/Araney.95b4615ea09816858315.webp",
     "static/media/TextFinder.webp": "/static/media/TextFinder.ee08f659fa12da8b50e3.webp",
     "static/media/HeadPhones.webp": "/static/media/HeadPhones.d54895051b4452b8f64e.webp",
@@ -39,10 +40,10 @@
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
     "static/media/test.txt": "/static/media/test.31d6cfe0d16ae931b73c.txt",
     "main.c7ff7659.css.map": "/static/css/main.c7ff7659.css.map",
-    "main.cce3a011.js.map": "/static/js/main.cce3a011.js.map"
+    "main.5d2c81ec.js.map": "/static/js/main.5d2c81ec.js.map"
   },
   "entrypoints": [
     "static/css/main.c7ff7659.css",
-    "static/js/main.cce3a011.js"
+    "static/js/main.5d2c81ec.js"
   ]
 }
