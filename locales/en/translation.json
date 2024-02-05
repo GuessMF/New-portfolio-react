@@ -16,5 +16,6 @@
   "all": "All",
   "stack": "Stack:",
   "contactMe": "You can contact me with:",
-  "checkMyRepo": "You can check my repository:"
+  "checkMyRepo": "You can check my repository:",
+  "ecars": "Ecars is my biggest and most complex project. It took me about half a year to create it. It uses all the technologies that are currently in demand on the market: React, TypeScript, React Router, Redux Toolkit, SCSS Module, Firebase and many others. Ecars is a kind of car aggregator. Any user can go to ecars-project.ru and see the current assortment of cars. Filtering and sorting on the level of requests on the backend are realized. Also any user can put his car for sale, only registration by email, or login via Google API or sms code is required. It is also possible to edit or completely delete your car. All data is stored in Firebase database. At the moment the application is fully functional and performs all the intended functions, fully implemented layout for desktop and mobile devices, all intermediate versions are maximally simplified. "
 }
