@@ -23,6 +23,9 @@ export default function Projects() {
     index: i,
   }));
 
+  console.log(value);
+  console.log(categories[value.index]);
+
   return (
     <div className={style.wrapper}>
       <animated.div

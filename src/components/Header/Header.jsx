@@ -27,13 +27,12 @@ export default function Header() {
     changeLanguage(lang.value);
     //console.log(lang.value);
   };
-  console.log(lang + " lang");
 
   return (
     <div className={style.header}>
       <div className={style.header__wrapper}>
         <NavLink to="/" className={style.brand_name}>
-          <div>Blog Name</div>
+          <div>Sergey Pankov</div>
         </NavLink>
 
         <div className={style.right_content}>
@@ -43,7 +42,6 @@ export default function Header() {
               className={({isActive}) =>
                 isActive ? style.active_link : style.link
               }
-              onClick={() => console.log("test2")}
             >
               <span>{t("aboutMe")}</span>
             </NavLink>
@@ -71,10 +69,7 @@ export default function Header() {
           <li>
             <DarkModeBtn />
           </li>
-          <li>
-            {/* <button onClick={() => changeLanguage("en")}>en</button>
-            <button onClick={() => changeLanguage("ru")}>ru</button> */}
-          </li>
+          <li></li>
           <SelectHeader
             classNamePrefix="custom-select-header"
             isSearchable={false}
@@ -83,11 +78,6 @@ export default function Header() {
             placeholder={lang}
             value={lang}
             onChange={changeLang}
-            // defaultValue={lang}
-            // isMulti={true}
-            // isOptionSelected={true}
-            //isLoading={true}
-            // menuIsOpen={true}
           />
         </div>
       </div>

@@ -13,6 +13,8 @@ import js_icon from "./images/js.webp";
 import ts_icon from "./images/typescript.webp";
 import react_icon from "./images/react.webp";
 import git_icon from "./images/git.webp";
+import firebase_icon from "./images/firebase.png";
+import gsap_icon from "./images/gsap.svg";
 
 export default function CorouselSlider() {
   const settings = {
@@ -74,6 +76,12 @@ export default function CorouselSlider() {
         </li>
         <li>
           <img src={git_icon} alt="git_icon"></img>
+        </li>
+        <li>
+          <img src={firebase_icon} alt="firebase_icon"></img>
+        </li>
+        <li>
+          <img src={gsap_icon} alt="gsap_icon"></img>
         </li>
       </Slider>
     </div>

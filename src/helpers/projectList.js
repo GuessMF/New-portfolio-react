@@ -21,14 +21,17 @@ import SCSS_icon from "./../components/Slider/images/sass.webp";
 import JS_icon from "./../components/Slider/images/js.webp";
 import TS_icon from "./../components/Slider/images/typescript.webp";
 import TAILWIND_icon from "./../components/Slider/images/tailwind.webp";
+import React_icon from "./../components/Slider/images/react.webp";
+import Firebase_icon from "./../components/Slider/images/firebase.png";
+import Gsap_icon from "./../components/Slider/images/gsap.svg";
 
 const projects = [
   {
     title: "Ecars",
-    category: "TS",
+    category: "React",
     img: Ecars,
-    stack: "HTML,CSS, React, TS",
-    stackIcon: [HTML_icon, CSS_icon, TS_icon],
+    stack: "React, TS, SCSS, Redux Toolkit, React Router, Firebase",
+    stackIcon: [React_icon, TS_icon, SCSS_icon, Firebase_icon],
     commercial: false,
     description: "ecars",
     link: "https://guessmf.github.io/Ecars/",
@@ -39,10 +42,10 @@ const projects = [
     category: "Landings",
     img: Kema,
     stack: "HTML, CSS, JS, Jquery, GSAP",
-    stackIcon: [HTML_icon, CSS_icon, JS_icon],
-    link: "https://guessmf.github.io/KEMA-Fitness/",
+    stackIcon: [HTML_icon, CSS_icon, JS_icon, Gsap_icon],
+    link: "https://kema.fitness/OZ_ver/",
     commercial: true,
-    gitHubLink: "https://kema.fitness/OZ_ver/",
+    gitHubLink: "https://github.com//GuessMf/KEMA-Fitness",
   },
   {
     title: "Rilab",
