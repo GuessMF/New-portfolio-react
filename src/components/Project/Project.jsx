@@ -22,6 +22,7 @@ export default function Project() {
           <span>
             {t("stack")} <h3>{project.stack}</h3>
           </span>
+          <p>{t(project.description)}</p>
         </div>
         <div className={style.buttons}>
           <div

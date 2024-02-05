@@ -67,6 +67,7 @@ export default function Projects() {
                       stack={project.stack}
                       stackIcon={project.stackIcon}
                       index={index}
+                      commercial={project.commercial}
                     />
                   );
                 })
@@ -80,6 +81,7 @@ export default function Projects() {
                       stack={project.stack}
                       stackIcon={project.stackIcon}
                       index={index}
+                      commercial={project.commercial}
                     />
                   ) : (
                     ""

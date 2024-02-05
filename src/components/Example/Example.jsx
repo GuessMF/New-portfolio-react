@@ -10,6 +10,7 @@ export default function Example({
   stack,
   stackIcon,
   index,
+  commercial,
 }) {
   console.log();
   return (
@@ -19,6 +20,7 @@ export default function Example({
           className={style.example_img}
           style={{backgroundImage: `url(${img})`}}
         >
+          {commercial && <span className={style.commercial}>Commercial</span>}
           <div className={style.subtitle}>
             <h4>{title}</h4>
             <p>

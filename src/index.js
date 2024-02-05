@@ -13,24 +13,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <Router basename={process.env.PUBLIC_URL}>
-    <Suspense
-      fallback={
-        <Audio
-          height="80"
-          width="80"
-          radius="9"
-          color="green"
-          ariaLabel="three-dots-loading"
-          wrapperStyle
-          wrapperClass
-        />
-      }
-    >
-      <App />
-    </Suspense>
+    <App />
   </Router>
-  // <React.StrictMode>
-
-  // </React.StrictMode>
 );
 //reportWebVitals();
