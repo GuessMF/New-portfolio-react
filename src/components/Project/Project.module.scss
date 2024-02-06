@@ -43,6 +43,7 @@
   @media (max-width: 450px) {
     width: 90vw;
     height: 60vw;
+    height: fit-content;
   }
 
   img {
@@ -56,7 +57,7 @@
   width: 60%;
   color: var(--color-text);
   @media (max-width: 1050px) {
-    width: 50vw;
+    width: 90%;
   }
 
   h3 {
@@ -95,8 +96,9 @@
     width: 25vw;
   }
   @media (max-width: 500px) {
-    width: 90%;
+    width: 100%;
     margin-bottom: $main-margin-top;
+    margin-right: 0;
   }
   img {
     width: 15%;
@@ -134,7 +136,7 @@
     width: 25vw;
   }
   @media (max-width: 500px) {
-    width: 90%;
+    width: 100%;
   }
   img {
     width: 50%;

@@ -37,6 +37,9 @@
   border: none;
   position: relative;
   z-index: 8;
+  @media (max-width: 450px) {
+    height: 90%;
+  }
 }
 .subtitle {
   position: absolute;
