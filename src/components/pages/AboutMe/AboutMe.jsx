@@ -45,7 +45,12 @@ export default function AboutMe() {
       >
         <div className={style.about_me}>
           <h4 className={style.title}>{t("aboutMe")}:</h4>
-          <div className={style.information}>{t("aboutMeText")}</div>
+          <div className={style.information}>
+            <p> {t("aboutMeText1")}</p>
+            <p> {t("aboutMeText2")}</p>
+            <p> {t("aboutMeText3")}</p>
+            <p> {t("aboutMeText4")}</p>
+          </div>
           <h4>{t("allMyStack")}</h4>
 
           <CorouselSlider />
