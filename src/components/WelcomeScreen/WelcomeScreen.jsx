@@ -4,7 +4,7 @@ import {useSpring, animated} from "@react-spring/web";
 
 import {useTranslation} from "react-i18next";
 
-import cv from "./files/test.txt";
+import cv from "./files/Pankov_Segey_React_Frontend_Developer.pdf";
 import avatar_img from "./images/avatar.webp";
 import download_icon from "./images/download_icon.webp";
 import download_i from "./images/download.svg";
