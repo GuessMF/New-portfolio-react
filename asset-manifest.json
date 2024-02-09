@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.f6ab9314.css",
-    "main.js": "/static/js/main.4044c274.js",
+    "main.css": "/static/css/main.277f3ca0.css",
+    "main.js": "/static/js/main.a1f33e80.js",
     "static/media/avatar.webp": "/static/media/avatar.828f148baaa5942f5729.webp",
     "static/media/Ecars.webp": "/static/media/Ecars.ae1f64a9af1d3c12d98c.webp",
+    "static/media/Pankov_Segey_React_Frontend_Developer.pdf": "/static/media/Pankov_Segey_React_Frontend_Developer.f027a4ef7917c8f7702e.pdf",
     "static/media/Rilab.webp": "/static/media/Rilab.14a749fd94278616d8b5.webp",
     "static/media/Kema-fitness.webp": "/static/media/Kema-fitness.271a6f26e04f71f3e275.webp",
     "static/media/gsap.svg": "/static/media/gsap.2081c63e8ac9bdbc0a001478c3126641.svg",
@@ -35,12 +36,11 @@
     "static/media/download_icon.webp": "/static/media/download_icon.16dfa5306b771fa457f2.webp",
     "static/media/download.svg": "/static/media/download.105db99b9142b86bbb9ac299179261ac.svg",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "static/media/test.txt": "/static/media/test.31d6cfe0d16ae931b73c.txt",
-    "main.f6ab9314.css.map": "/static/css/main.f6ab9314.css.map",
-    "main.4044c274.js.map": "/static/js/main.4044c274.js.map"
+    "main.277f3ca0.css.map": "/static/css/main.277f3ca0.css.map",
+    "main.a1f33e80.js.map": "/static/js/main.a1f33e80.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6ab9314.css",
-    "static/js/main.4044c274.js"
+    "static/css/main.277f3ca0.css",
+    "static/js/main.a1f33e80.js"
   ]
 }
